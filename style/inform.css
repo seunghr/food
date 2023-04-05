@@ -1,0 +1,368 @@
+*{
+    font-family: 'Pretendard-Regular';
+}
+/* header */
+header{
+    background-color: yellow;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+header > div{
+    width: 100px;
+    margin: auto;
+    padding-top: 20px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    right: 280px;
+    top: 35px;
+}
+.logo > li{
+    cursor: pointer;
+}
+.menu{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.menu > span{
+    width: 140px;
+    height: 58px;
+}
+.menu > span > li {
+    width: 150px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.menu > span > li:last-child::after{ content: none; }
+.menu > span > li::after{
+    content: url(../images/bul_tabline.png);
+}
+.menu > span:hover{
+    border-bottom: 2px solid red;
+    cursor: pointer;
+    color: red;
+}
+.list01, .list02, .list03, .list04{
+    background-color: #fff;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: -22px;
+    z-index: 99;
+    display: none;
+}
+.list_left{
+    display: flex;
+    position: absolute;
+    left: 400px;
+}
+.list_left01 > span:nth-of-type(1){
+    font-weight: bold;
+    font-size: 20px;
+}
+.list_left01 > span:nth-of-type(2){
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.list_left01 > span:nth-of-type(3){
+    margin-top: 5px;
+    font-size: 14px;
+}
+.list_left01 > span:nth-of-type(4){
+    font-size: 14px;
+}
+.list_left02{
+    margin: 30px;
+    font-size: 14px;
+}
+.list_left02 > span{
+    margin: 6px;
+}
+.list_left02 > span:hover{
+    color: red;
+    cursor: pointer;
+}
+.list_left02 > span:last-child{
+    position: absolute;
+    left: 500px;
+    top: 20px;
+}
+.list_right{
+    position: absolute;
+    right: 400px;
+}
+.list_right > li{
+    width: 220px;
+    padding: 10px;
+    border: 2px solid rgb(218, 216, 216);
+    text-align: center;
+    margin-bottom: 5px;
+    color: rgb(87, 87, 87);
+}
+.list_right > li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* section01 */
+.section01{
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+    position: relative;
+}
+.banner-section{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.banner-section > img{
+    width: 100%;
+}
+.banner > ul{
+    position: absolute;
+    width: 1000px;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner > ul > li{
+    width: 500px;
+    height: 25px;
+    margin: auto;
+    color: #fff;
+}
+.banner > ul > li:first-child{
+    font-size: 20px;
+}
+.banner > ul > li:nth-of-type(3){
+    font-size: 50px;
+}
+.banner > ul > li:nth-of-type(4){
+    font-size: 18px;
+    margin-top: 45px;
+}
+.banner_bar{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(211, 60, 60);
+}
+.banner_bar > ul{
+    display: flex;
+    width: 1000px;
+    height: 60px;
+    justify-content: center;
+    line-height: 60px;
+}
+.banner_bar > ul > li{
+    width: 150px;
+    border-right: 1px solid #999;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.banner_bar > ul > li:first-child{
+    border-left: 1px solid #999;
+    width: 80px;
+}
+
+/* section02 */
+.section02{
+    width: 1300px;
+    margin: auto;
+}
+.more{
+    width: 100%;
+    height: 50px;
+}
+.more > ul{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    line-height: 50px;
+}
+.more > ul > li{
+    margin-right: 10px;
+    color: #555;
+    cursor: pointer;
+}
+.intro{
+    width: 100%;
+    height: 200px;
+    
+}
+.intro > ul{
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+.intro > ul > li{
+    height: 40px;
+}
+.intro > ul > li:first-child{
+    font-size: 36px;
+    color: #222;
+}
+.intro > ul > li:last-child{
+    font-size: 18px;
+    color: #666;
+}
+.box-container{
+    display: flex;
+}
+.box01{
+    width: 50%;
+    height: 600px;
+    position: relative;
+}
+.box01 > ul{
+    width: 1300px;
+    height: 600px;
+    margin: auto;
+}
+.box01 > ul > li{
+    border: 1px solid rgb(206, 206, 206);
+}
+.box01 > ul > li{
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+}
+.box01 > ul > li > img{
+    width: 50%;
+    height: 600px;
+}
+.box01 > ul > li > span{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.box02{
+    width: 50%;
+    height: 600px;
+    border: 1px solid rgb(206, 206, 206);
+    border-left: none;
+    border-bottom: none;
+    float: right;
+    position: relative;
+}
+.box02 > ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box02 > ul > li{
+    width: 50%;
+    height: 300px;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: #fff;
+}
+.box02 > ul > li > img{
+    width: 200px;
+    height: 230px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.box02 > ul > li > div{
+    text-align: center;
+    color: #666;
+}
+.box02 > ul > li > span{
+    position: absolute;
+}
+
+/* footer */
+.footer_box{
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(226, 226, 226);
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+.footer_box > div{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.ft_title{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    width: 600px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    left: 100px;
+}
+.ft_title > li{
+    cursor: pointer;
+}
+.ft_tit{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    right: 100px;
+    gap: 10px;
+}
+.ft_tit > li{
+    cursor: pointer;
+}
+.ft_text{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+.ft_logo{
+    display: flex;
+    width: 1000px;
+    height: 80px;
+    margin: auto;
+    font-size: 14px;
+    gap: 10px;
+}
+.ft_tt{
+    height: 50px;
+}
+.ft_tt02{
+    display: flex;
+    width: 500px;
+    margin-bottom: 5px;
+}
+.ft_tt03{
+    display: flex;
+    width: 650px;
+    margin-bottom: 5px;
+}
+.ft_tt04{
+    width: 1000px;
+    margin: auto 30%;
+}
+.top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

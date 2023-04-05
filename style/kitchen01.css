@@ -1,0 +1,367 @@
+*{
+    font-family: 'Pretendard-Regular';
+}
+header{
+    background-color: rgb(216, 60, 60);
+    width: 100%;
+    height: 110px;
+}
+.hd_box{
+    display: flex;
+    width: 1300px;
+    gap: 150px;
+    margin: auto;
+}
+.hd_img > img{
+    margin-top: 20px;
+}
+.hd_text{
+    display: flex;
+    height: 100px;
+    line-height: 100px;
+}
+.hd_text > li > input{
+    border-bottom: 3px solid #fff;
+    border-top: none;
+    border-right:  none;
+    border-left: none;
+    background-color: transparent;
+    width: 570px;
+    height: 60px;
+    margin-top: 32px;
+    margin-left: 100px;
+}
+.hd_text > li > input::placeholder{
+    color: #fff;
+    font-size: 24px;
+}
+.hd_text > li > img{
+    margin-left: -50px;
+    margin-top: 40px;
+}
+.hd_sh{
+    display: flex;
+    height: 110px;
+    line-height: 110px;
+    color: #fff;
+    gap: 20px;
+    font-size: 20px;
+}
+.hd_sh > li{
+    cursor: pointer;
+    height: 66px;
+}
+.hd_sh > li:hover{
+    border-bottom: 1px solid #fff;
+}
+.hd_menu_top{
+    width: 100%;
+    background-color: #fff;
+    height: 70px;
+}
+.hd_menu{
+    width: 1300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.hd_bar{
+    display: flex;
+    width: 500px;
+    height: 70px;
+    line-height: 70px;
+    color: #333;
+    font-size: 22px;
+    gap: 4px;
+}
+.hd_bar > li{
+    display: flex;
+    cursor: pointer;
+    font-weight: bold;
+}
+.hd_bar > li:hover{
+    color: rgb(216, 60, 60);
+}
+.hd_bar > li:nth-of-type(3){
+    margin-right: 30px;
+}
+.hd_bar > li:nth-of-type(6){
+    color: rgb(216, 60, 60);
+}
+.hd_bar > li:nth-of-type(2),.hd_bar > li:nth-of-type(5){
+    margin-top: 10px;
+}
+.hd_bar > li > img{
+    height: 30px;
+    margin: 10px;
+}
+.hd_bar2{
+    cursor: pointer;
+}
+.hd_bar2 > li{
+    display: flex;
+    gap: 4px;
+}
+.hd_bar2 > li:nth-of-type(1){
+    margin-right: 10px;
+}
+.hd_bar2 > li:hover{
+    color: rgb(216, 60, 60);
+}
+.hd_barimg{
+    width: 36px;
+    height: 36px;
+    background-image: url(/images/kitchen_img/icons.png);
+    background-position: -13px -14px;
+    background-size: 500px;
+    margin-top: 15px;
+}
+.hd_bar2{
+    display: flex;
+    width: 260px;
+    height: 70px;
+    line-height: 70px;
+    color: #666;
+    font-size: 18px;
+    gap: 4px;
+}
+.hd_bar2_img1{
+    width: 36px;
+    height: 36px;
+    background-image: url(/images/kitchen_img/icons.png);
+    background-position: -54px -14px;
+    background-size: 500px;
+    margin-top: 15px;
+}
+.hd_bar2_img2{
+    width: 36px;
+    height: 36px;
+    background-image: url(/images/kitchen_img/icons.png);
+    background-position: -54px -49px;
+    background-size: 500px;
+    margin-top: 15px;
+}
+
+/* section01 */
+.section01{
+    width: 100%;
+    position: relative;
+}
+.banner_img{
+    cursor: pointer;
+    position: relative;
+    margin-top: 70px;
+    width: 100%;
+    height: 710px;
+    background-color: #333;
+}
+/* .img01{
+    background-color: aqua;
+    width: 100%;
+    height: 710px;
+    background-image: url(/images/kitchen_img/main_visual01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -350px;
+}
+.img02{
+    background-color: aqua;
+    width: 100%;
+    height: 710px;
+    background-image: url(/images/kitchen_img/main_visual02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.img03{
+    background-color: aqua;
+    width: 100%;
+    height: 710px;
+    background-image: url(/images/kitchen_img/main_visual03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .img04{
+    background-color: aqua;
+    width: 100%;
+    height: 710px;
+    background-image: url(/images/kitchen_img/main_visual04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img05{
+    background-color: aqua;
+    width: 100%;
+    height: 710px;
+    background-image: url(/images/kitchen_img/main_visual05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img06{
+    background-color: aqua;
+    width: 100%;
+    height: 710px;
+    background-image: url(/images/kitchen_img/main_visual06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img07{
+    background-color: aqua;
+    width: 100%;
+    height: 710px;
+    background-image: url(/images/kitchen_img/main_visual07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* img02 */
+/* .img02 > ul{
+    position: absolute;
+    width: 500px;
+    top: 200px;
+    left: 300px;
+    color: #fff;
+    font-size: 70px;
+}
+.img02_li01{
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.img02_li01 > span:first-child{
+    font-weight: bold;
+    border-bottom: 3px solid #fff;
+}
+.img02_li02 > span:last-child{
+    font-weight: bold;
+    margin-top: -14px;
+}
+.img02_li03{
+    margin-top: 20px;
+    display: flex;
+    font-size: 24px;
+    gap: 20px;
+}
+.img02_li03 > span{
+    background-color: #fff;
+    border-radius: 26px;
+    color: #666;
+    padding: 4px 14px;
+}
+.img02_li04{
+    display: flex;
+    font-size: 20px;
+    background-color: rgb(221, 80, 55);
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+.img02_li04 > span{
+    margin-left: 25px;
+}
+.img02_li04 > span:last-child{
+    background-image: url(/images/kitchen_img/visual_start.png);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+    transform: rotate(90deg);
+}
+.img02_li04:hover{
+    background-color: rgb(179, 9, 9);
+} */
+/* img03 */
+.img03 > ul{
+    position: absolute;
+    width: 500px;
+    top: 200px;
+    left: 300px;
+    color: #fff;
+    font-size: 70px;
+}
+.img03_li01{
+
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.img03_li01 > span:first-child{
+    font-weight: bold;
+    width: 340px;
+    border-bottom: 3px solid #fff;
+}
+.img03_li02 > span:last-child{
+    font-weight: bold;
+    margin-top: -14px;
+}
+.img03_li03{
+    margin-top: 20px;
+    display: flex;
+    font-size: 24px;
+    gap: 20px;
+}
+.img03_li03 > span{
+    background-color: #fff;
+    border-radius: 26px;
+    color: #666;
+    padding: 4px 14px;
+}
+.img03_li04{
+    display: flex;
+    font-size: 20px;
+    background-color: rgb(221, 80, 55);
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+.img03_li04 > span{
+    margin-left: 25px;
+}
+.img03_li04 > span:last-child{
+    background-image: url(/images/kitchen_img/visual_start.png);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+    transform: rotate(90deg);
+}
+.img03_li04:hover{
+    background-color: rgb(179, 9, 9);
+}
+#left{
+    position: absolute;
+    background-image: url(/images/kitchen_img/visual_arrow.png);
+    background-position: 5px;
+    width: 50px;
+    height: 52px;
+    left: 200px;
+    top: 50%;
+    cursor: pointer;
+}
+#right{
+    position: absolute;
+    background-image: url(/images/kitchen_img/visual_arrow.png);
+    background-position: -35px;
+    width: 50px;
+    height: 52px;
+    right: 200px;
+    top: 50%;
+    cursor: pointer;
+}
+
+
+
+
+.top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.top > img{
+    width: 50px;
+}

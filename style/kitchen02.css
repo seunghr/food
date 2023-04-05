@@ -1,0 +1,124 @@
+.section02{
+    width: 100%;
+}
+.more_container{
+    width: 1300px;
+    height: 500px;
+    margin: 100px auto;
+}
+.more_list{
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+}
+.sc_li01{
+    width: 300px;
+    height: 500px;
+}
+.sc_li01 > span{
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+}
+.sc_li01 > span:nth-of-type(3){
+    font-size: 20px;
+    margin-top: 20px;
+    color: #777;
+}
+.sc_div{
+    padding: 5px;
+}
+.sc_div > span{
+    border: 1px solid #555;
+    width: 120px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+}
+.sc_div > span:hover{
+    background-color: red;
+    color: #fff;
+}
+.sc_li03{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(236, 233, 171);
+}
+.sc_li03 > div{
+    width: 300px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 26px;
+}
+.sc_li03 > div > span:nth-of-type(3){
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sc_li03 > div > span:nth-of-type(4){
+    font-size: 22px;
+    font-weight: bold;
+}
+.sc_li03 > div > span:nth-of-type(5){
+    font-size: 16px;
+}
+.sc_li04{
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(213, 210, 210);
+}
+.sc_li04 > div{
+    font-size: 24px;
+}
+.sc_li04 > div > span:nth-of-type(2){
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.sc_li04 > div > span:nth-of-type(3), .sc_li04 > div > span:nth-of-type(4){
+    font-size: 18px;
+    color: #555;
+}
+.sc_li04 > div > span:nth-of-type(5){
+    font-size: 18px;
+    border: 1px solid;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 340px auto;
+    border-radius: 30px;
+    background-color: #888;
+    color: #fff;
+    cursor: pointer;
+}
+.sc_li04 > div > span:nth-of-type(5):hover{
+    background-color: rgb(255, 59, 59);
+}
+.sc_li05{
+    width: 300px;
+    position: relative;
+}
+.sc_li05 > div{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.sc_li05 > div > span{
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+}
+.sc_li05 > div > span:nth-of-type(4){
+    margin-top: 10px;
+}
+.sc_li05 > div > span:nth-of-type(4), .sc_li05 > div > span:nth-of-type(5){
+    font-size: 18px;
+    font-weight: lighter;
+}

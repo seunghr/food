@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/kitchen01.css">
+    <link rel="stylesheet" href="./style/kitchen02.css">
+    <script src="./script/jquery-3.6.1.js"></script>
+    <script src="./script/jquery-ui.js"></script>
+    <!-- day14_1006 > day13_1005 img 움직이기 -->
+</head>
+<body>
+    <header>
+        <div class="hd_box">
+            <ul class="hd_text">
+                <div class="hd_img"><img src="./images/kitchen_img/logo.png" alt=""></div>
+                <li>
+                    <input type="text" placeholder="오뚜기 제품,요리명 등 다양하게 검색해보세요!(예:카레)">
+                </li>
+                <li><img src="./images/kitchen_img/top_sch.png" alt=""></li>
+            </ul>
+            <ul class="hd_sh">
+                <li>#라면맛집</li>
+                <li>#XO만두</li>
+            </ul>
+        </div>
+        <nav class="hd_menu_top">
+            <div class="hd_menu">
+                <ul class="hd_bar">
+                    <li><div class="hd_barimg"></div>카테고리</li>
+                    <li><img src="./images/bg_tab_on.jpg" alt=""></li>
+                    <li>인기 레시피</li>
+                    <li>신규 레시피</li>
+                    <li><img src="./images/bg_tab_on.jpg" alt=""></li>
+                    <li>계량 팁</li>
+                </ul>
+                <ul class="hd_bar2">
+                    <li><div class="hd_bar2_img1"></div>오뚜기몰</li>
+                    <li><div class="hd_bar2_img2"></div>최근 본 레시피</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="sction01">
+        <div class="banner_img">
+            <div class="img01"></div>
+            <div class="img02">
+                <!-- <ul>
+                    <li class="img02_li01">
+                        <span>간편하게 완성하는</span>
+                        <span>브런치 메뉴</span>
+                    </li>
+                    <li class="img02_li02">
+                        <span>더치베이비</span>
+                        <span>팬케이크</span>
+                    </li>
+                    <li class="img02_li03">
+                        <span>#생일축하해</span>
+                        <span>#핫케이크</span>
+                    </li>
+                    <li class="img02_li04">
+                        <span>생일테마 바로가기</span>
+                        <span></span>
+                    </li>
+                </ul> -->
+            </div>
+            <div class="img03">
+                <ul>
+                    <li class="img03_li01">
+                        <span>간편하지만 정성스러운 한끼!</span>
+                        <span>갓지은 솥밥으로</span>
+                    </li>
+                    <li class="img03_li02">
+                        <span>맛있고 든든하게</span>
+                        <span>영양 챙기기</span>
+                    </li>
+                    <li class="img03_li03">
+                        <span>#채식</span>
+                        <span>#카레토마토솥밥</span>
+                    </li>
+                    <li class="img03_li04">
+                        <span>레시피 바로 보기</span>
+                        <span></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="img04"></div>
+            <div class="img05"></div>
+            <div class="img06"></div>
+            <div class="img07"></div>
+        </div>
+        <ul class="pre">
+            <li id="left"></li>
+            <li id="right"></li>
+        </ul>
+    </section>
+    <section class="section02">
+        <div class="more_container">
+            <ul class="more_list">
+                <li class="sc_li01">
+                    <span>이건 어때요?</span>
+                    <span>인기 검색어</span>
+                    <span>고민을 덜어주는 추천 검색어</span>
+                    <div class="sc_div">
+                        <span>#카레</span>
+                        <span>#마요네스</span>
+                        <span>#분식</span>
+                        <span>#브런치</span>
+                        <span>#집밥</span>
+                        <span>#치츠듬뿍</span>
+                        <span>#캠핑</span>
+                        <span>#간단 꿀조합</span>
+                    </div>
+                </li>
+                <li class="sc_li03">
+                    <div>
+                        <span>Kid's Cooking</span>
+                        <span>키즈셰프 레시피</span>
+                        <span><img src="./images/kitchen_img/@class_img1.png" alt=""></span>
+                        <span>쨈 아이스크림</span>
+                        <span>#오뚜기쨈 #딸기쨈 #포도쨈</span>
+                    </div>
+                </li>
+                <li class="sc_li04">
+                    <div>
+                        <span>History</span>
+                        <span>최근 본 레시피</span>
+                        <span>최근에 본 레시피를</span>
+                        <span>다시 찾아 볼 수 있습니다.</span>
+                        <span>더보기</span>
+                    </div>
+                </li>
+                <li class="sc_li05">
+                    <img src="./images/kitchen_img/sec04_tip_bg.jpg" alt="">
+                    <div>
+                        <span>오뚜기의</span>
+                        <span>쉽고 간단한</span>
+                        <span>계량 꿀팁!</span>
+                        <span>밥숟가락, 종이컵으로</span>
+                        <span>간단하고 쉽게 알려드립니다.</span>
+                    </div>
+                </li>
+            </ul>
+            <!-- <ul class="more_list02">
+                
+            </ul> -->
+        </div>
+    </section>
+    <a href="#" class="top"><img src="./images/kitchen_img/btn_top.png" alt=""></a>
+</body>
+<script src="./script/kitchen.js"></script>
+</html>
